@@ -32,7 +32,7 @@ class GeminiChatApp:
         self.apply_theme()
         # Configuração do modelo com "instruções de sistema"
         self.model = genai.GenerativeModel(
-            model_name='models/gemini-3-flash-preview', # Versão do gemini
+            model_name='models/gemini-3-flash-preview', # Versão do gemini(escolha a que achar melhor a partir das versões que sua key permite)
             system_instruction="Você é um assistente amigável e profissional chamado Gemini Pro. Ajude o usuário com respostas claras e diretas."
         )
         self.chat = self.model.start_chat(history=[])
