@@ -28,6 +28,7 @@ Instale as dependências:
 *No terminal*
 pip install -r requirements.txt
 
+*pegue sua API KEY DO Gemini em https://aistudio.google.com/app/api-keys*
 *Crie um arquivo .env na raiz do projeto e adicione sua chave:*
 O que escrever no .env
 GEMINI_API_KEY=sua_chave_aqui
